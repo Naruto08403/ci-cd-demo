@@ -9,6 +9,6 @@ function calculate() {
 }
 
 // Export for unit testing
-if (typeof module !== "undefined") {
+if (typeof module !== "undefined") { 
     module.exports = add;
 }
